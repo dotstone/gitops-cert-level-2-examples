@@ -28,6 +28,6 @@ spec:
     jsonPointers:
     - /metadata/annotations/creation
   - group: *
-    kind: Secret
+    kind: *
     jsonPointers:
     - /data/my-password
